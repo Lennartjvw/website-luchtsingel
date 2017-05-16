@@ -1,0 +1,266 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: alternateGothic;
+    src: url(font/alternate-gothic.ttf);
+}
+
+@font-face {
+    font-family: adobeCaslon;
+    src: url(font/AdobeCaslonPro.ttf);
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: black;
+    display: inline-block;
+}
+
+.social-wrap {
+    width: 120px;
+    height: 80px;
+    float: right;
+    margin-top: 20px;
+    padding-right: 50px;
+}
+
+.social-icons {
+    float: left;
+    margin-right: 10px;
+}
+
+h1 {
+    padding-top: 150px;
+    text-align: center;
+    font-family: alternateGothic;
+    font-size: 75px;
+}
+
+h2 {
+    padding-top: 60px;
+    text-align: center;
+    font-family: alternateGothic;
+    font-size: 40px;
+}
+
+h3 {
+    font-family: adobeCaslon;
+    font-size: 12px;
+    text-align: center;
+}
+
+h4 {
+    font-family: alternateGothic;
+    font-size: 20px;
+}
+
+h5 {
+    font-family: alternateGothic;
+    font-size: 18px;
+}
+
+p {
+    font-family: adobeCaslon;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 30px;
+    float: left;
+    padding-left: 40px;
+    font-family: alternateGothic;
+    font-size: 26px;
+}
+
+ul, a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    display: inline;
+    margin: 15px;
+}
+
+li a:hover {
+    color: #ffd503;
+}
+
+.home {
+    width: 100%;
+    background-color: #ffd503;
+    height: 100vh;
+}
+
+.information {
+    width: 100%;
+    background-color: white;
+    height: 100vh;
+}
+
+.leaderboards {
+    width: 100%;
+    background-color: #ffd503;
+    height: 100vh;
+}
+
+.faq {
+    width: 100%;
+    background-color: white;
+    height: 100vh;
+}
+
+.contact {
+    width: 100%;
+    background-color: #ffd503;
+    height: 100vh;
+}
+
+#hand {
+    padding-top: 118px;
+    float: left;
+}
+
+.tekst {
+    margin: auto;
+    width: 400px;
+    line-height: 30px;
+}
+
+.wrapper {
+    width: 600px;
+    height: 900px;
+    margin: auto;
+}
+
+.wrapper-two {
+    width: 1000px;
+    height: 900px;
+    margin: auto;
+}
+
+.maps {
+    margin: auto;
+    width: 400px;
+    float: right;
+    padding-bottom: 40px;
+}
+
+.icon {
+    padding-top: 10px;
+}
+
+.contact-icons {
+    width: 600px;
+}
+
+#twitter {
+    width: 195px;
+    margin: auto;
+}
+
+#beeld {
+    margin: auto;
+    width: 845px;
+}
+
+#textOne {
+    width: 400px;
+    height: 600px;
+    float: left;
+}
+
+#textOne p {
+    text-align: left;
+    line-height: 30px;
+}
+
+#textTwo {
+    width: 500px;
+    height: 550px;
+    background-color: #ffd503;
+    float: right;
+    padding: 10px;
+}
+
+.date {
+    width: 500px;
+    margin: auto;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    margin: 10px;
+    border: none;
+    color: white;
+    font-family: alternateGothic;
+    font-size: 20px;
+    padding-top: 7px;
+}
+
+#dayDropdown {
+    margin-top: 50px;
+    width: 600px;
+    height: 450px;
+    background-color: aqua;
+}
+
+#monthDropdown {
+    margin-top: 50px;
+    width: 600px;
+    height: 450px;
+    background-color: red;
+}
+
+#leaderboard {
+    width: 600px;
+    height: 550px;
+}
+
+#table {
+    margin: auto;
+    width: 200px;
+    padding-top: 20px;
+}
+
+table {
+    margin-top: auto;
+}
+
+td {
+    width: 100px;
+    font-family: adobeCaslon;
+    padding-top: 20px;
+}
+
+th {
+    text-align: left;
+    font-family: alternateGothic;
+    font-size: 20px;
+}
+
+thead {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.white {
+    color: white;
+}
+
+
+
+
